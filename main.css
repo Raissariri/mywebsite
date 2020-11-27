@@ -12,7 +12,9 @@
 }
 
 body{
+    display: flex;
     background-image: url("background.jpg");
+    flex-direction: column;
    
 }
 
@@ -190,6 +192,6 @@ h4{
 .img{
     height: 100vh;
     size: 50px;
-    
+
 
 }
