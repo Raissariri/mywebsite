@@ -1,0 +1,195 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Fondamento:ital@1&family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Fondamento:ital@1&family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Charm&family=Cinzel+Decorative&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-image: url("background.jpg");
+   
+}
+
+.name{
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+
+nav{
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+}
+
+nav p{
+    font-size: 24px;
+    font-family:'Bad Script', cursive;
+    color: rgb(221, 214, 219);
+    line-height: 55px;
+    float: left;
+    padding: 0px 20px;
+
+
+}
+
+nav ul{
+    float: left;
+
+}
+
+nav ul li{
+    float: left;
+    list-style: none;
+    position: relative;
+
+}
+
+nav ul li a {
+    display: block; 
+    font-size: 20px;
+    font-family:'Bad Script', cursive;
+    color: rgb(90, 85, 85);
+    padding: 22px 14px;
+    text-decoration: none;
+}
+
+nav ul li ul {
+    display: none; 
+    position: absolute ;
+    background-color: white;
+    padding: 10px;
+    border-radius: 0px 0px 4px 4px;
+}
+
+
+nav ul li:hover ul {
+    display: block; 
+   
+}
+
+
+nav ul li ul li a:hover {
+    padding: 8px 14px;
+    background-color:rgba(185, 153, 185, 0.37);
+
+
+}
+
+nav ul li ul li  {
+    width: 180px;
+    border-radius: 4px;
+}
+    
+
+header{
+    color: rgb(12, 12, 12); 
+    font-size: 90px;
+    font-family: 'Bad Script', cursive;
+    text-align: end;
+    
+}
+
+footer{
+    color: rgb(14, 13, 13);
+    font-size: 60px;
+    font-family: 'Bad script', cursive;
+    text-align: center;
+    
+
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+
+h2{
+    color: rgb(24, 22, 24);
+    font-size: 50px;
+    font-family: 'Bad Script', cursive; 
+    text-align: center;
+}
+.center{
+    text-align: center;
+    align-self: center;
+}
+
+h4{
+    color: rgb(19, 19, 19);
+    font-size: 20px;
+    font-family: 'Bad Script', cursive 
+}
+
+.link{
+    color: rgb(15, 14, 14);
+    font-size: 30px;
+    font-family: 'Bad Script', cursive;
+    text-align: center;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    width: 200%;
+    height: 500px;
+    background-color: rgba(177, 176, 176, 0.527);
+    justify-content: space-between;
+    align-items: center;
+   
+    flex-grow: 1;
+
+}
+
+.item{
+    background-color: rgba(177, 176, 176, 0.527);
+    flex-grow:1;
+}
+
+.item2{
+    background-color: rgba(177, 176, 176, 0.527);
+    flex: 0 1 1000px
+}
+
+.box {
+    color: rgb(5, 5, 5);
+    font-size: 40px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+    padding: 15px;
+    width: 400px;
+}
+
+.img-shopper{
+    display: flex;
+    width: 400px;
+    height: 400px;
+    align-self: center;
+
+    
+
+}
+.img{
+    height: 100vh;
+    size: 50px;
+    
+
+}
